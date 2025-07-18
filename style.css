@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.istok-web-bold {
+  font-family: "Istok Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hello { 
+display: inline-block;
+margin-top: 60px ;
+margin-left: 30%;
+margin-bottom: 4px;
+background-color:#420E15 ; 
+padding: 5px 50px ;
+border-bottom-left-radius: 10px ; 
+border-bottom-right-radius: 30px ; 
+border-top-left-radius: 10px ; 
+border-top-right-radius:10px ;
+color: white ;
+font-family: "Istok Web", bold;
+font-size: 36px;
+margin-bottom: -70px;
+
+}
+
+.hero {
+  background-color:#761320;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.boutons {
+  display: flex ;
+  gap: 15px ;
+  margin-bottom: 0px;
+  margin-left: 67% ; 
+  margin-top: -70px;
+}
+
+.btn {
+  background-color: #FFE9EC ;
+  border-radius:24px ;
+  margin-bottom: 20px;
+  padding: 10px 20px ;
+  font-family: "Istok Web", sans-serif;
+
+}
+
+.title {
+  font-family: "Istok Web", regular;
+  padding-left: 6% ;
+  padding-right: 5%;
+  font-size: 350px;
+  color : white;
+  margin-top: -140px;
+}
+
+#apropos {
+ background-color:rgba(173, 57, 72, 0.66);
+ margin: 0px ; 
+ padding: 0px;
+ display: flex;
+
+}
+
+.photo {
+  flex: 1 1 300px;
+  text-align: center;
+  margin: 0px;
+}
+
+.photo img {
+  width: 350px ;
+  height: 350px;
+  border-radius: 50%;
+  border: 5px solid white;
+  object-fit: cover;
+  margin: 20%;
+
+}
+
+.title_apropos {
+background-color: #761320;
+padding: 8px 50px ;
+display: inline-block;
+border-radius: 30px;
+color: white;
+margin-top: 8%;
+margin-bottom: 25px;
+margin-right: 10px;
+margin-left: 10%;
+font-family: "Istok Web", bold;
+font-size: 24px;
+
+}
+
+.texte_apropos p{
+  color: white;
+  text-align: justify;
+  font-family: "Istok Web", bold;
+  font-size: 24px;
+  margin-right: 15%;
+  margin-left: 10%;
+
+}
+
+
+#mes_projets {
+    background-color:rgba(255, 233, 236, 1) ;
+    padding: 50px;
+
+}
+
+.projets {
+    background-color: rgba(255, 244, 245, 1) ;
+    border-radius: 30px;
+    display: flex;
+    margin-left: 48px;
+    margin-right: 48px;
+
+
+}
+
+.texte p {
+  padding-top: 2%;
+  padding-right: 7%;
+  padding-left: 7%;
+  padding-bottom: 0%;
+  font-family: "Istok Web", bold;
+  font-size: 25px;
+  text-align: justify;
+
+}
+
+.texte h2 { 
+  padding-top: 7%;
+  padding-left: 7%;
+  padding-bottom: 0%;
+  font-family: "Istok Web", bold;
+  color: #761320;
+  font-size: 27px ; 
+
+
+ }
+
+.logo_figma img{
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  width:205px;
+  height:307px;
+}
+
+.photo_sms img {
+  width:236px;
+  height:480px;
+  margin: 10%;
+  padding-left: 15%;
+  padding-bottom: 8%;
+  padding-top: 8%;
+
+}
+
+.texte a {
+  background-color:#761320; ;
+  border-radius:24px ;
+  padding: 10px 20px ;
+  margin-left: 8%;
+  margin-right: -6%;
+  font-family: "Istok Web", sans-serif;
+  color: white;
+  text-decoration-line: none;
+}
+
+.texte a:hover {
+  background-color: rgba(118, 19, 32, 0.69);
+  color : white;
+}
+
+.container_projet_sms {
+  display: flex;
+  background-color: rgba(255, 244, 245, 1) ;
+  border-radius: 30px;
+  margin: 50px;
+}
+
+.container_projet_sms h2 {
+  padding-left: 8%;
+  padding-top: 10%;
+}
+
+.container_projet_sms p{
+  padding-left: 8%;
+  padding-bottom: 4% ;
+}
+
+.container_projet_pilates {
+  display: flex;
+  background-color: rgba(255, 244, 245, 1) ;
+  border-radius: 30px;
+  margin: 50px;
+  padding-top : 0 ;  
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 3%;
+}
+
+.photo_pilates img{
+  width:446px;
+  height:276px;
+  margin : 30px ; 
+  padding-top: 30px;
+}
+
+.container_projet_pilates p {
+  margin-bottom: 4%;
+  margin-right: 2%;
+}
+
+.container_projet_resto {
+  display: flex;
+  background-color: rgba(255, 244, 245, 1) ;
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.photo_resto img{
+  width:446px;
+  height:276px;
+  margin : 30px ; 
+  padding-top: 30px;
+}
+
+.container_projet_resto p {
+  margin-bottom: 4%;
+}
+
+footer {
+  background-color:#761320;
+  padding: 50px;
+}
